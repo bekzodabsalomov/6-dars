@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+body {
+  font-family: "Varela", sans-serif;
+  color: black;
+}
+.contianer {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 50px;
+}
+
+.card {
+  width: 600px;
+  border: 5px solid rgb(13, 247, 255);
+  border-radius: 20px;
+}
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.btn-box {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+p {
+  font-size: 40px;
+}
+button {
+  padding: 10px 10px;
+  background-color:rgb(255, 0,  251);
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.button2{
+    padding: 10px 10px;
+    background-color: rgb(34, 255, 0);
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  
+
